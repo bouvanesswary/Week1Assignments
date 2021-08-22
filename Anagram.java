@@ -49,3 +49,34 @@ public class Anagram {
 	}
 
 }
+//Another Method
+
+ String text1 = "stops";
+		String text2 = "potss";
+		int text1str = text1.length();
+		int text2str = text2.length();
+		
+		System.out.println(text1str);
+		System.out.println(text2str);
+			
+			char[] text1char = text1.toCharArray();
+			char[] text2char = text2.toCharArray();
+		    System.out.println(text1char);
+			System.out.println(text2char);
+		
+		Arrays.sort(text1char);
+			Arrays.sort(text2char);
+		
+		if (text1str == text2str) {
+						System.out.println(text1+ " and " + text2 +" are Anagram.");
+			}
+			else {
+				System.out.println(text1+ " and " + text2 +" are not Anagram.");
+			}
+						//System.out.println(text1char);
+			//System.out.println(text2char);
+				
+	}
+	}
+
+
